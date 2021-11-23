@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+h1{
+    text-align: center;
+    color:rgb(248, 237, 237);
+    text-shadow: 2px 2px rgb(177, 17, 155);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    color:black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px rgb(177, 17, 155);
+}
+
+.card-image{
+    
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url('bugatti.jpg');
+}
+
+.car-2{
+    background-image: url('mercedes.jpg');
+}
+
+.car-3{
+    background-image: url('pagani.jpg');
+}
+
+.car-4{
+    background-image: url('rollsroyce.jpg');
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(150, 150, 148);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 1s ease;
+}
